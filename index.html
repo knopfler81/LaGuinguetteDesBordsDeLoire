@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guinguette des bords de Loire - Saint-Just-Saint-Rambert</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Guinguette Loire</div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#accueil" class="nav-link">Accueil</a></li>
+                <li><a href="#a-propos" class="nav-link">À propos</a></li>
+                <li><a href="#menu" class="nav-link">Menu</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#galerie" class="nav-link">Galerie</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Guinguette des bords de Loire</h1>
+            <p class="hero-subtitle">Détente, nature et convivialité au fil de l'eau</p>
+            <div class="hero-cta">
+                <a href="tel:0612384630" class="btn btn-primary">Appeler</a>
+                <a href="#contact" class="btn btn-secondary">En savoir plus</a>
+            </div>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <!-- À propos -->
+    <section id="a-propos" class="about">
+        <div class="container">
+            <div class="about-content">
+                <h2>Bienvenue au cœur de la nature</h2>
+                <p>Installée sur les bords de la Loire, notre guinguette vous offre un cadre idéal pour des moments en famille ou entre amis. Profitez de notre grande terrasse en plein air, dans une ambiance détente et vacances.</p>
+                <p>Repas à commander sur place, service terrasse. Ouvert de 10hà 21h pour vos soirées d'été.</p>
+                <div class="rating">
+                    <span class="stars">★★★★★</span>
+                    <span class="rating-text">4,3/5 - 898 avis</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Nos services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🌿</div>
+                    <h3>Terrasse en plein air</h3>
+                    <p>Grand espace extérieur pour profiter de la nature et de la Loire</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🍽️</div>
+                    <h3>Repas à commander</h3>
+                    <p>Plats préparés avec soin, assiettes variées, options végétariennes disponibles</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🥗</div>
+                    <h3>Végétarien friendly</h3>
+                    <p>Nous accueillons tous les régimes alimentaires</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">☀️</div>
+                    <h3>Ambiance détente</h3>
+                    <p>Cadre parfait pour un moment de relaxation en famille</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2>Notre Carte</h2>
+            <div class="menu-selector">
+                <!-- Les boutons seront générés automatiquement -->
+            </div>
+            <div class="menu-loading">Chargement du menu...</div>
+            <div id="menuContainer" class="menu-grid"></div>
+        </div>
+    </section>
+
+    <!-- Galerie -->
+    <section id="galerie" class="gallery">
+        <div class="container">
+            <h2>Galerie</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/Image_1.jpg" alt="Terrasse extérieure">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/Image_2.jpg" alt="Vue Loire">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/Image_3.jpg" alt="Plats">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/Image_4.jpg" alt="Ambiance">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/Image_5.jpg" alt="Ambiance">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/Image_6.jpg" alt="Ambiance">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/Image_7.jpg" alt="Terrasse guinguette">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/Image_8.jpg" alt="Vue Loire">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/Image_9.jpg" alt="Plats">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/Image_10.jpg" alt="Ambiance">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/Image_11.jpg" alt="Ambiance">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/Image_12.jpg" alt="Ambiance">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Infos pratiques -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <div class="infos-grid">
+                <div class="info-card">
+                    <h3>📍 Adresse</h3>
+                    <p>25 Bd de la Loire<br>42170 Saint-Just-Saint-Rambert</p>
+                </div>
+                <div class="info-card">
+                    <h3>📞 Téléphone</h3>
+                    <p><a href="tel:0612384630">06 12 38 46 30</a></p>
+                </div>
+                <div class="info-card">
+                    <h3>⏰ Horaires</h3>
+                    <p>Ouvert tous les jours<br>Fermeture à 21h00</p>
+                </div>
+                <div class="info-card">
+                    <h3>💰 Tarifs</h3>
+                    <p>Budget moyen : 20-30€</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Guinguette des bords de Loire. Tous droits réservés.</p>
+        <p><a href="mentions-legales.html">Mentions légales</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
